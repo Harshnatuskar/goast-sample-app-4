@@ -10,7 +10,9 @@ A nextjs replicate app to test goastai's crash bot that can be used to demonstra
 3) Copy this trace to put into goast (Or you can click the `Use sample stack trace` button in goast)
 ```
 Here is the trace:
-
+  ./src/app/page.js
+   ReactServerComponentsError:
+   You're importing a component that needs useState. It only works in a Client Component but none of      its parents are marked with "use client", so they're Server Components by default 
  1 │ // @react-env useClient
  2 │ import { useState } from "react";
    ·          ────────
