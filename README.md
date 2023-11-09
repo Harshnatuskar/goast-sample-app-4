@@ -1,4 +1,3 @@
-# goast-sample-app-4
 # Getting Started with Goast
 
 A nextjs replicate app to test goastai's crash bot that can be used to demonstrate goast's ability to fix crashes.
